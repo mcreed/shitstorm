@@ -1,17 +1,18 @@
 ShitStorm Framework
 =========
 
-Based on the ShitStorm Cloud provisioning service.
+Based on the ShitStorm Cloud provisioning service. Everything autoscales 
 
     #require 'shitstorm-config.php';
     #require 'shitstorm.php';
   
-    $shitstorm = new ShitStorm();
+    // Just enter your api token and $amount you want to spend to keep the site running
+    $shitstorm = new ShitStorm('APITOKENHERE', 100.99);
   
     // This could probably load up your file
     $shitstorm->shit('html', '/', function(){
   
-      $s = "<h1>Apparently this shit works</h1>";
+      $s = "<h1>Look, a shitty webpage.</h1>";
     
     });
   
