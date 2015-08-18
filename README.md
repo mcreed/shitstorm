@@ -1,6 +1,8 @@
 ShitStorm Framework
 =========
 
+## Production ready! Definitely use on live sites.
+
 Based on the ShitStorm Cloud provisioning service. Everything autoscales 
 
     #require 'shitstorm-config.php';
